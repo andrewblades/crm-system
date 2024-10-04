@@ -1,0 +1,59 @@
+.column-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.add-task-button {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(101, 101, 101);
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.add-task-button:hover {
+    background-color: darkgreen;
+}
+
+.filter-buttons {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.filter-button {
+    padding: 5px 8px;
+    margin: 0 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.red {
+    background-color: red;
+}
+
+.orange {
+    background-color: orange;
+}
+
+.white {
+    background-color: white;
+    color: black;
+}
+
+.reset {
+    background-color: gray;
+}
+
+.reset:hover,
+.filter-button:hover {
+    opacity: 0.8;
+}

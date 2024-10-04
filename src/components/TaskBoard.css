@@ -1,0 +1,26 @@
+.task-board {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    max-width: 900px;
+    /* Limit the width of the board */
+    margin: auto;
+    /* Center the board horizontally */
+}
+
+.column {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 30%;
+    /* Adjust the column width if needed */
+    padding: 10px;
+    background-color: #f9f9f9;
+    margin: 0 10px;
+    /* Add margins between columns */
+}
+
+h2 {
+    text-align: center;
+    font-size: 1.5rem;
+    /* Adjust the header size */
+}
